@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang = "ko">
+<haed>
+  <meta charset="utf-8">
+  <title> Document </title>
+ </head>
+ <body>
+  <h1>
+    <a href = "https://www.naver.com"> WEB </a>
+  </h1>
+  
+  <input id = "night_day" type = "button" value = "night" onclick = " _
+    var target = document.queryselector('body');
+    if(this.value === 'night'){
+    target.style.backgroundcolor = 'black';
+    target.style.color = 'white' ;
+    this.value='day';
+    var i = 0;
+    var alist=[document.queryselectorall('a');
+    while(i< alist.length){
+      alist[i].style.color = 'powderblue';
+      i = i + 1;
+      }
+    }else{
+    target.style.backgroundcolor='white';
+    target.style.color = 'black';
+    this.value = 'night';
+    }
+    ">
+    
+    <ol>
+      <li> <a href = "1"> HTML </a> </li>
+      <li> <a href = "2"> CSS </a> </li>
+      <li> <a href = "3"> JAVASCRIPT </a> </li>
+    </ol>
+    <h2>
+      JAVASCRIPT
+    </h2>
+    <p>
+      Javascript is a high-level computer-programming language.
+    </p>
+</body>
+</html>
